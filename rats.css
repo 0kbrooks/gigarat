@@ -1,0 +1,171 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  color: green;
+  overflow: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.cage-content {
+  visibility: visible;
+}
+
+.cage {
+  display: inline-block;
+  position: absolute;
+  top: 0px
+}
+
+#Tip {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 33.33%;
+  text-align: center;
+}
+
+#console {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 33.33%;
+  height: 100%;
+  overflow: auto;
+  animation-duration: 1s;
+  animation-name: consoleDown;
+  scroll-snap-type: y mandatory;
+}
+
+#consoleInput {
+  scroll-snap-align: end;
+}
+
+#thing {
+  position: fixed;
+  top: 0px;
+  left: 66.66%;
+  width: 33.33%;
+  height: 50%;
+}
+
+#cooking {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 33%;
+  height: 50%;
+  text-align: center;
+}
+
+#ingredientsList {
+  background-color: black;
+  z-index: 1;
+}
+
+#Tip {
+  z-index: 1;
+}
+
+#middle {
+  position: fixed;
+  top: 0px;
+  left: 33.33%;
+  height: 100%;
+  width: 33.33%;
+  overflow: auto;
+}
+
+.buton {
+  cursor: grab;
+}
+
+input {
+  background-color: black;
+  color: green;
+  border: none;
+  padding: 0px;
+  outline: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+
+}
+
+.quest-holder {
+  font-weight: bold;
+  overflow: hidden;
+  height: 16px;
+}
+
+.quest-content {
+  font-weight: normal;
+}
+
+.underlineme:hover {
+  text-decoration: underline;
+}
+
+#veil {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 15;
+}
+
+#veil-text {
+  padding: 10px;
+}
+
+.achline {
+  display: inline-block;
+  width: calc(100%/7);
+  border: 1.5px solid green;
+  position: absolute;
+  top: 0px;
+  text-align:center;
+}
+
+#achline-lust {
+  left: 0px;
+}
+
+#achline-wrath {
+  left: calc(100%/7);
+}
+
+#achline-pride {
+  left: calc(200%/7);
+}
+
+#achline-glutton {
+  left: calc(300%/7);
+}
+
+#achline-sloth {
+  left: calc(400%/7);
+}
+
+#achline-greed {
+  left: calc(500%/7);
+}
+
+#achline-envy {
+  left: calc(600%/7);
+  border-right: solid 1.5px green;
+}
+.ach {
+  width: 90%;
+  margin: auto;
+  border: 3px green solid;
+}
+.ach-title {
+  font-weight: bold;
+}

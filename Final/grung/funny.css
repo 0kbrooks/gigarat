@@ -1,0 +1,72 @@
+.div1{
+  position: absolute;
+  left: 0vw;
+}
+.div2{
+  position: absolute;
+  left: 11vw;
+}
+.div3{
+  position: absolute;
+  left: 22vw;
+}
+.text{
+  color: black;
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px;
+  border: black solid 1px;
+}
+.buttonpadding{
+  padding:5px;
+}
+.square{
+  background-color: lightgray;
+  padding: 1vw;
+  border: black solid 3px;
+  width: 11vw;
+  height: 8vw;
+  overflow-wrap: break-word;
+}
+.square1{
+  background-color: lightgray;
+  padding: 5px;
+  margin: 10px;
+  border: black solid 3px;
+  width: 200px;
+  height: 115px;
+}
+.lore{
+  font-family: sans-serif;
+  color: black;
+  font-size: 20px;
+}
+.lored{
+  position: absolute;
+  top: 235px;
+  left: 41vw;
+  background-color: darkgray;
+  padding: 10px;
+  border: 4px gray solid;
+  width: 38vw;
+}
+.purpose{
+  position: absolute;
+  top: 620px;
+  left: 1vw;
+  background-color: darkgray;
+  padding: 10px;
+  border: 4px gray solid;
+  width: 38vw;
+}
+
+#richrat{
+  position: absolute;
+  height: 36vw;
+  width: 18vw;
+  top: 18vw;
+  right: 2vw;
+}
+.Oliber{
+  font-size: 2.5vw;
+}
